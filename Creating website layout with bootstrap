@@ -1,0 +1,446 @@
+ HTML CODE
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>myfirstwebsite</title>
+    <!-- CSS only -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+      crossorigin="anonymous"
+    />
+
+    <link href="custom.css" rel="stylesheet" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+            <li class="nav-item dropdown">
+              <a
+                class="nav-link dropdown-toggle"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-bs-toggle="dropdown"
+                aria-expanded="false"
+              >
+                Dropdown
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><hr class="dropdown-divider" /></li>
+                <li>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </li>
+              </ul>
+            </li>
+            <li class="nav-item">
+              <a
+                class="nav-link disabled"
+                href="#"
+                tabindex="-1"
+                aria-disabled="true"
+                >Disabled</a
+              >
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input
+              class="form-control me-2"
+              type="search"
+              placeholder="Search"
+              aria-label="Search">
+            <button class="btn btn-outline-success" 
+            type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <header class="page-header header container-fluid">
+      <div class="overlay"></div>
+      <div class="description">
+        <h1>My first website</h1>
+        <p>
+          My name is Dutch Jerry and i reside<br />
+          in west africa <br />
+          i love to write programming <br />
+          language..
+        </p>
+
+        <button class="btn btn-outline-secondary btn-lg">
+          Tell me more</button>
+      </div>
+    </header>
+
+    <div class="container features">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          
+          <h3 class="feature-title">LANGUAGE BARRIER</h3>
+          <img class="img-fluid" src="card7.jpg" alt="row" />
+          <p>Hello its me again..</p>
+        </div>
+    
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          
+          <h3 class="feature-title">LANGUAGE BARRIER</h3>
+          <img class="img-fluid" src="card7.jpg" alt="row" />
+          <p>Hello its me again..</p>
+        </div>
+    
+      
+
+      <div class="col-lg-4 col-md-4 col-sm-12">
+        <h3 class="feature-title">
+          Get in Touch!</h3>
+<div class="form-group">
+<input type="text" class="form-control" 
+placeholder="Name" name="">
+</div>
+<div class="form-group">
+<input type="email" class="form-control"
+ placeholder="Email Address"
+name="email">
+</div>
+<div class="form-group">
+<textarea class="form-control" rows="4">
+</textarea>
+</div>
+<input type="submit" class="btn-submit btn btn-secondary btn-block" value="Send"
+name="">
+      </div>
+    </div>
+  </div>
+
+  <!-- Team Section  -->
+
+  <div class="background">
+    <div class="container team">
+      <div class="row">
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="nip.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Joe Biden</h4>
+            <p class="card-text">Job Description</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="pap.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Perry Jones</h4>
+            <p class="card-text">Job Description</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="a1.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Barken Stuck</h4>
+            <p class="card-text">Job Description</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="a2.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Laden Putin</h4>
+            <p class="card-text">Job Description</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="roose.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Roose Ray</h4>
+            <p class="card-text">Job Description</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="rose.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Rosey Huncho</h4>
+            <p class="card-text">Job Description</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="rse.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Bary Hameney</h4>
+            <p class="card-text">Job Description</p>
+          </div>
+        </div>
+        <div class="card col-lg-3 col-md-3 col-sm-4 text-center">
+          <img class="card-img-top rounded-circle" src="rosey.jpg" alt="Card image">
+          <div class="card-body">
+            <h4 class="card-title">Kary Henshaw</h4>
+            <p class="card-text">Job Description</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Footer -->
+<footer class="main-footer">
+  <div class="footer-inner">
+<img src="globe.jpg" alt="globe" />
+  English <br>(United States)
+  <ul class="go">
+      <li><a href="#">Sitemap</a></li>
+      <li><a href="#">Contact website</a></li>
+      <li><a href="#">Privacy & cookies</a></li>
+      <li><a href="#">Terms of use</a></li>
+      <li><a href="#">Trademarks</a></li>
+      <li><a href="#">Safety & Credentials</a></li>
+      <li><a href="#">About our ads</a></li>
+      <li><a href="#">&copy; pappy 2023</a></li>
+      </ul>
+
+    </div>
+</footer>
+
+    
+    <!-- JavaScript Bundle with Popper -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+      crossorigin="anonymous"
+    ></script>
+    <script src="custom.js"></script>
+  </body>
+</html>
+
+
+ CSS CODE
+.header {
+  background-image: url("background-image.jpg");
+  background-size: cover;
+  background-position: center;
+  position: relative;
+  width: 90%;
+
+}
+
+.description {
+  left: 50%;
+  position: absolute;
+  top: 45%;
+  transform: translate(-50%, -55%);
+  text-align: center;
+}
+
+.description h1 {
+  color: #6ab446;
+}
+
+.description p {
+  color: #fff;
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.description button {
+  border: 1px solid #6ab446;
+  background: #6ab446;
+  border-radius: 0;
+  color: #fff;
+}
+
+.description button:hover {
+  border: 1px solid #fff;
+  background: #fff;
+  color: #000;
+}
+
+a {
+  color: #262626;
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.overlay {
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  left: 0;
+  top: 0;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.btn {
+  background-color: #6ab446;
+}
+
+.features {
+  margin: 4em auto;
+  padding: 1em;
+  position: relative;
+  
+}
+
+.row {
+  display: flex;
+  
+}
+
+
+.feature-title {
+  color: #333;
+  font-size: 1.3rem;
+  font-weight: 700;
+  margin-bottom: 10px;
+  margin-right: 30px;
+  text-transform: uppercase;
+  margin-top: -40px;
+ 
+ 
+}
+.features p {
+  margin-top: 10px;
+}
+
+.features img {
+  -webkit-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+  
+  
+  
+}
+
+.features .form-control,
+.features input {
+border-radius: 0;
+}
+.features .btn {
+background-color: #589b37;
+border: 1px solid #589b37;
+color: #fff;
+margin-top: 20px;
+}
+.features .btn:hover {
+background-color: #333;
+border: 1px solid #333;
+}
+body {
+background: #f2f6e9;
+}
+.form-group {
+margin-bottom: 1rem;
+}
+.btn-submit {
+width: 90%;
+}
+
+/* Team Section */
+
+.background {
+  background: #dedec8;
+  padding: 4em 0;
+}
+.team {
+  color: #5e5e55;
+  padding: 0 180px;
+}
+.team .card-columns {
+  -webkit-column-count: 4;
+  -moz-column-count: 4;
+  column-count: 4;
+}
+.team .card {
+  background: none;
+  border: none;
+}
+.team .card-title {
+  font-size: 1.3rem;
+  margin-bottom: 0;
+  text-transform: uppercase;
+}
+
+/* Footer */
+.main-footer {
+  background: rgba(153, 153, 190, 0.747);
+  color:#070706;
+  font-size: 12px;
+  padding: 25px 0;
+  max-width: 1000px;
+  margin-top: -70px;
+ 
+}
+.footer-inner img{
+  width: 2%;
+  height: 20px;
+}
+
+.footer-inner {
+  margin: 0 auto;
+  padding: 0 20px 0 20px;
+  align-items: center;
+  
+}
+
+.go {
+  margin-right: auto;
+  padding: 0 20px;
+  display: flex; 
+  align-items: flex-end;
+  justify-content: right;
+}
+
+.footer-inner {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: left;
+  
+  
+ }
+ 
+.footer-inner i {
+  margin-right: 10px;
+}
+
+.main-footer li a {
+  margin-left: 20px;
+  margin-right: 1px;
+  margin-bottom: 20px;
+  
+}
+
+JAVASCRIP FILE
+var ready = (callback) => {
+     if (document.readyState != "loading") 
+     callback();
+      else document.addEventListener("DOMContentLoaded", 
+      callback); 
+    }
+       ready(() => {
+    document.querySelector(".header").style.height 
+    = window.innerHeight + "px";
+    }
+    )
+    
